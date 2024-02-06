@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#zoid-paypal-buttons-uid_ddf9db16f0_mty6ndi6mtq > iframe.component-frame {
+    z-index: 0; /* Set a lower z-index */
+};
