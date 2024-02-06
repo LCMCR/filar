@@ -91,7 +91,7 @@ const Footer = () => {
               Find out our latest news!
             </p>
             <p className="mb-4 text-sm">
-              <input  placeholder="Your e-mail" name='email' value={email} onChange={handleOnChange} className="bg-stone-600 border border-white rounded-md px-2 py-1" type="text"/>
+              <input placeholder="Your e-mail" name='email' value={email} onChange={handleOnChange} className="bg-stone-600 border border-white rounded-md px-2 py-1" type="text"/>
             </p>
             <p>
               <button onClick={handleSubscribe} className="bg-stone-600 border border-stone-600 rounded-md px-2 py-1 hover:bg-white hover:text-stone-600 text-sm">
@@ -106,21 +106,20 @@ const Footer = () => {
         <span>© {year} Copyright:</span>
         <a
           className="font-semibold text-stone-500"
-          href="https://tw-elements.com/"
         > {brand}</a>
       </div>
       <ToastContainer
-                position="top-left"
-                autoClose={2000}
-                hideProgressBar={false}
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable
-                pauseOnHover
-                theme="light"
-            />
+          position="top-left"
+          autoClose={2000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+      />
     </footer>
   );
 }
