@@ -44,7 +44,7 @@ const ProductsCard = ({ product }) => {
         <div className='group relative text-stone-600'>
             <div onClick={handleProdDetails} className='w-full h-96 cursor-pointer overflow-hidden relative group-hover:opacity-100 transition-opacity duration-300'>
                 <img
-                    className="w-full h-full object-cover group-hover:scale-110 duration-500" 
+                    className="w-full h-full object-contain group-hover:scale-110 duration-500" 
                     src={product.image} 
                     alt={product.title}
                 />

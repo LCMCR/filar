@@ -13,7 +13,6 @@ const Products = ({ products, title, text }) => {
                     {text}
                 </p>
             </div>
-            {/* <div className="max-w-screen-xl mx-auto py-10 grid grid-cols-4 gap-10"> */}
             <div className="max-w-screen-xl mx-auto px-6 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
                 {
                     products.map((item) => (
