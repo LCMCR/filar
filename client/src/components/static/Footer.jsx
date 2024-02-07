@@ -70,7 +70,7 @@ const Footer = () => {
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start text-sm gap-1">
               <MdOutlineEmail className="mr-3 h-5 w-5" />
-              <a href="mailto:info@filar.com">info@filar.com</a>
+              <a className="hover:underline duration-300 cursor-pointer" href="mailto:info@filar.com">info@filar.com</a>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start text-sm">
               <CiMobile3 className="mr-3 h-5 w-5" />
